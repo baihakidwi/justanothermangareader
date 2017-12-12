@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vsize_griditem_imagesize">120dp</dimen>
+    <dimen name="hsize_griditem_imagesize">90dp</dimen>
+
+    <dimen name="margin_all_imagemargin">4dp</dimen>
+    <dimen name="margin_all_itemmargin">8dp</dimen>
+
+    <dimen name="vsize_listitem_imagesize">40dp</dimen>
+    <dimen name="hsize_listitem_imagesize">30dp</dimen>
+
+</resources>

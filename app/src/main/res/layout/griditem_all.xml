@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_all_itemmargin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgv_griditem_mangathumbnails"
+        android:layout_width="@dimen/hsize_griditem_imagesize"
+        android:layout_height="@dimen/vsize_griditem_imagesize"
+        android:layout_margin="@dimen/margin_all_imagemargin"
+        android:background="@color/colorPrimaryDark"
+        android:contentDescription="manga thumbnail" />
+
+    <TextView
+        android:id="@+id/txv_griditem_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:text="manga title"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txv_griditem_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="3"
+        android:text="manga description"
+        android:textAlignment="center" />
+
+</LinearLayout>
